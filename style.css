@@ -1,0 +1,110 @@
+body {
+  background-image: url('https://qu.ax/iqJmg.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+.judul {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#typing {
+  border-right: 2px solid white;
+  padding-right: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { border-color: white; }
+  50% { border-color: transparent; }
+  100% { border-color: white; }
+}
+
+.qris-section p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.qris-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0077cc;
+}
+
+.note {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.payment-box {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.payment-box p {
+  margin: 5px 0;
+}
+
+.payment-box button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  margin-top: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.payment-box button:hover {
+  background-color: #008fcc;
+}
